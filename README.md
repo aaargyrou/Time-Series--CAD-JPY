@@ -95,11 +95,10 @@ Use the results of the completed time series analysis and modelling to answer th
 
 In this notebook, I have built a Scikit-Learn linear regression model to predict CAD/JPY returns with *lagged* CAD/JPY futures returns and categorical calendar seasonal effects (e.g., day-of-week or week-of-year seasonal effects).
 
-
 ![regression predictions](Images/regression_predictions.png)
 
 
-* Does this model perform better or worse on out-of-sample data compared to in-sample data?
+**Does this model perform better or worse on out-of-sample data compared to in-sample data?**
 
 **Answer**
 * To evaluate the performance of the out-of-sample vs in-sample data, we will use the Root Mean Squared Error (RMSE) as a metric. The RSME is the standard deviation of the residuals (prediction errors). Residuals are a measure of how far from the regression line the data points are. RSME therefore measures how spread out these residuals are. Allowing us to evaluate how concentrated the data is around the line of best fit.
